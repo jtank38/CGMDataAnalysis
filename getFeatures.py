@@ -46,14 +46,7 @@ class getPCA():
         self.df = pd.DataFrame(self.PCs, columns=['PC1', 'PC2', 'PC3', 'PC4', 'PC5'])
 
     def pca(self):
-        # # Normalize data
-        # normData = StandardScaler().fit_transform(self.mat)
-        # pca_timeSeries = PCA(n_components=5)
-        # PCs = pca_timeSeries.fit_transform(normData)
-        # df = pd.DataFrame(PCs, columns=['PC1', 'PC2', 'PC3', 'PC4', 'PC5'])
-        #print(df)
-        # amount of variation each attribute holds after projecting data at lower dimension
-        #print(pca_timeSeries.explained_variance_ratio_)
+
         return self.df
 
     def results(self):

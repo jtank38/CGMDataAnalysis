@@ -30,7 +30,7 @@ class GetDirs():
         df = pd.read_csv(LunchFilename)
         df2 = pd.read_csv(DateNumFilename)
 
-        dfvals, dfdatenums=self.missingValues(df, df2)  # [df.columns[::-1]]) to reverse columns
+        dfvals, dfdatenums = self.missingValues(df, df2)  # [df.columns[::-1]]) to reverse columns
         if dfvals.shape[1]<42:
             z = np.zeros((dfvals.shape[0], 42 - dfvals.shape[1]))
             y = np.zeros((dfdatenums.shape[0], 42 - dfdatenums.shape[1]))
