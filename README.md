@@ -1,5 +1,6 @@
 # CGMDataAnalysis
- DataMining Project
+
+The repository is all about the analysis of the CGM data from patients for patients. The CGM data is based of meals and without meals and the goal is to find some good features from these time series.
  
  # Goal: To ananlyze CGM time series data and find 4 suitable features and generate PCA.
  
